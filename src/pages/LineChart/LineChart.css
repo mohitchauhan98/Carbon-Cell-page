@@ -1,0 +1,104 @@
+.linechart-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 18px;
+}
+.linechart-overview{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.chart-tokens{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.chart-tokens > span:first-child{
+    color: #fff;
+}
+.chart-tokens span{
+    color: #828382;
+}
+.divider{
+    border: 1px solid #333333;
+    margin: 8px 16px;
+}
+.line-chart-button{
+    padding: 7px;
+    border-radius: 6px;
+    background: #2AB42A;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #fff;
+}
+@media screen and (max-width: 280px){
+    .linechart-header{
+        display: flex;
+        align-items: center;
+    }
+    .linechart-overview{
+        font-size: 8px;
+    }
+    .chart-tokens{
+        font-size: 5px;
+        margin-top: 8px;
+    }
+    .line-chart-button{
+        font-size: 8px;
+    }
+}
+@media only screen and (min-width: 281px) and (max-width: 479px){
+    .linechart-header{
+        display: flex;
+        align-items: center;
+    }
+    .linechart-overview{
+        font-size: 12px;
+    }
+    .chart-tokens{
+        font-size: 10px;
+    }
+    .line-chart-button{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .linechart-header{
+        display: flex;
+        align-items: center;
+    }
+    .linechart-overview{
+        font-size: 14px;
+    }
+    .chart-tokens{
+        font-size: 12px;
+    }
+    .line-chart-button{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+    .linechart-overview{
+        font-size: 16px;
+    }
+    .chart-tokens{
+        font-size: 13px;
+    }
+    .line-chart-button{
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .linechart-overview{
+        font-size: 17px;
+    }
+    .chart-tokens{
+        font-size: 13px;
+    }
+    .line-chart-button{
+        font-size: 13px;
+    }
+}

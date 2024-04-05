@@ -1,0 +1,174 @@
+.info-card-box{
+    background: #000000;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    padding: 12px 15px 5px 15px;
+
+    .cell-img{
+        width: 50px;
+        border-radius: 50%;
+    }
+    .para{
+        width: 250px;
+    }
+    .info-card-head{
+        font-size: 17px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .info-card-head svg{
+        font-size: 15px;
+    }
+    .info-container{
+        display: grid;
+        margin-top: 5px;
+        gap: 5px;
+    }
+    .info-tag{
+        font-weight: 400;
+        color: #828382;
+    }
+    .info-para{
+        font-size: 15px;
+        color: #aaaaaa;
+    }
+    .info-icons-text{
+        display: flex;
+        gap: 20px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #aaaaaa;
+        margin-top: 10px;
+    }
+}
+.info-divider{
+    border: 1px solid #333333;
+    margin: 10px 0px;
+}
+.info-button{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    background: #2AB42A;
+    margin: 10px 145px;
+    padding: 5px;
+    border-radius: 8px;
+}
+@media screen and (max-width: 280px){
+    .info-card-box{
+        overflow: scroll;
+        .cell-img{
+            width: 20px;
+        }
+        .info-card-head{
+            font-size: 10px;
+        }
+        .info-para{
+            font-size: 9px;
+        }
+        .info-icons-text{
+            display: none;
+        }
+    }
+    .info-button{
+        font-size: 8px;
+        margin: 0 40px;
+    }
+}
+@media only screen and (min-width: 281px) and (max-width: 479px){
+    .info-card-box{
+        overflow: scroll;
+        .cell-img{
+            width: 20px;
+        }
+        .info-card-head{
+            font-size: 13px;
+        }
+        .info-para{
+            font-size: 12px;
+        }
+        .info-icons-text{
+            font-size: 12px;
+            gap: 7px;
+        }
+    }
+    .info-button{
+        margin: 0 80px;
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .info-card-box{
+        overflow: scroll;
+        .cell-img{
+            width: 30px;
+        }
+        .para{
+            width: 550px;
+        }
+        .info-card-head{
+            font-size: 17px;
+        }
+        .info-para{
+            font-size: 15px;
+        }
+        .info-icons-text{
+            font-size: 15px;
+            gap: 20px;
+        }
+    }
+    .info-button{
+        margin: 0 150px;
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+    .info-card-box{
+        .cell-img{
+            width: 30px;
+        }
+        .para{
+            width: 550px;
+        }
+        .info-card-head{
+            font-size: 16px;
+        }
+        .info-para{
+            font-size: 14px;
+        }
+        .info-icons-text{
+            font-size: 14px;
+            gap: 20px;
+        }
+    }
+    .info-button{
+        margin: 0 190px;
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .info-card-box{
+        .cell-img{
+            width: 35px;
+        }
+        .para{
+            width: 350px;
+        }
+        .info-card-head{
+            font-size: 17px;
+        }
+        .info-para{
+            font-size: 14px;
+        }
+        .info-icons-text{
+            font-size: 15px;
+            gap: 20px;
+        }
+    }
+    .info-button{
+        margin: 0 120px;
+        font-size: 13px;
+    }
+}

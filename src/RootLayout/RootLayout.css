@@ -1,0 +1,43 @@
+.layout{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    background: #0B0B0B;
+}
+.nav-layout{
+    width: 240px;
+}
+.layout-main{
+    width: calc(100% - 260px);
+    flex: 1;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+@media screen and (max-width:768px){
+    .layout{
+        overflow-x: hidden;
+    }
+    .nav-layout{
+        width: 0;
+    }
+    .layout-main{
+        height: 245vh;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+    .nav-layout{
+        width: 0;
+    }
+    .layout-main{
+        height: 227vh;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .nav-layout{
+        width: 0;
+    }
+    .layout-main{
+        height: 160vh;
+        overflow-x: hidden;
+    }
+}

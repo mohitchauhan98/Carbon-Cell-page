@@ -1,0 +1,232 @@
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-dropdown{
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background: #0B0B0B;
+}
+.card-wrapper{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.card-box{
+    width: 20%;
+    background: #1A1E1C;
+    border-radius: 8px;
+    padding: 15px;
+}
+.cb-icon-wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cb-icon-wrap > span:nth-child(2){
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.icon-item{
+    background: #1B9A59;
+    border-radius: 50%;
+    padding: 10px;
+    color: #202020;
+    font-size: 20px;
+}
+.card-icon-text{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+.card-money-wrap{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-trending{
+    display: flex;
+    align-items: center;
+}
+.card-trending > span:first-child{
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.card-trending > span:nth-child(2){
+    color: #aaaaaa;
+}
+.card-money{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.card-info-icon{
+    color: #1B9A59;
+    font-size: 30px;
+}
+.card-trade-button{
+    background: #1B9A59;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #202020;
+}
+@media screen and (max-width: 280px){
+    .card-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-dropdown{
+        font-size: 8px;
+    }
+    .card-box{
+        width: 91%;
+    }
+    .cb-icon-wrap > span:nth-child(2){
+        font-size: 10px;
+    }
+    .icon-item{
+        font-size: 10px;
+    }
+    .card-icon-text{
+        font-size: 10px;
+    }
+    .card-money{
+        font-size: 16px;
+    }
+    .card-trending > span:first-child{
+        font-size: 10px;
+    }
+    .card-trade-button{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 281px) and (max-width: 479px){
+    .card-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-dropdown{
+        font-size: 12px;
+    }
+    .card-box{
+        width: 91%;
+    }
+    .cb-icon-wrap > span:nth-child(2){
+        font-size: 12px;
+    }
+    .icon-item{
+        font-size: 14px;
+    }
+    .card-icon-text{
+        font-size: 12px;
+    }
+    .card-money{
+        font-size: 18px;
+    }
+    .card-trending > span:first-child{
+        font-size: 12px;
+    }
+    .card-trade-button{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .card-wrapper{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .card-dropdown{
+        font-size: 12px;
+    }
+    .card-box{
+        width: calc(50% - 40px);
+    };
+    .cb-icon-wrap > span:nth-child(2){
+        font-size: 12px;
+    }
+    .icon-item{
+        font-size: 14px;
+    }
+    .card-icon-text{
+        font-size: 12px;
+    }
+    .card-money{
+        font-size: 18px;
+    }
+    .card-trending > span:first-child{
+        font-size: 12px;
+    }
+    .card-trade-button{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+    .card-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-dropdown{
+        font-size: 13px;
+    }
+    .card-box{
+        width: calc(50% - 40px);
+    };
+    .cb-icon-wrap > span:nth-child(2){
+         font-size: 13px;
+    }
+    .icon-item{
+         font-size: 15px;
+    }
+    .card-icon-text{
+         font-size: 14px;
+    }
+    .card-money{
+         font-size: 19px;
+    }
+    .card-trending > span:first-child{
+         font-size: 14px;
+    }
+    .card-trade-button{
+         font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .card-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-dropdown{
+        font-size: 13px;
+    }
+    .card-box{
+        width: calc(33% - 34px);
+    };
+    .cb-icon-wrap > span:nth-child(2){
+         font-size: 13px;
+    }
+    .icon-item{
+         font-size: 15px;
+    }
+    .card-icon-text{
+         font-size: 14px;
+    }
+    .card-money{
+         font-size: 19px;
+    }
+    .card-trending > span:first-child{
+         font-size: 14px;
+    }
+    .card-trade-button{
+         font-size: 14px;
+    }
+}

@@ -1,0 +1,12 @@
+# Ignore compiled files
+*.class
+*.dll
+*.exe
+
+# Ignore directories
+node_modules/
+.idea/
+
+# Ignore specific files
+config.json
+secret.key
