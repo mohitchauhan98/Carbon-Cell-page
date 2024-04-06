@@ -162,16 +162,16 @@
     .home-box{
         padding: 10px;
         .home-head-text > span:first-child{
-            font-size: 15px;
+            font-size: 17px;
         }
         .head-wave svg{
-            font-size: 15px;
+            font-size: 16px;
         }
         .home-head-text > span:nth-child(2){
-            font-size: 13px;
+            font-size: 14px;
         }
         .home-head-button{
-            font-size: 13px;
+            font-size: 14px;
         }
         .charts-container{
             width: 100%;
